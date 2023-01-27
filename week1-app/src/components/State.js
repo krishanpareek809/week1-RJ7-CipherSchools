@@ -3,7 +3,7 @@ import Test from "./test";
 import UserDetails from "./UserDetails";
   
 const AllUserList = () => {
-    const [state, setState] = useState({ 
+    const [state, setStateName] = useState({ 
         name: "Sahil",
     });
 
